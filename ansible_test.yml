@@ -1,0 +1,8 @@
+- name: ansible testing				
+  hosts: localhost
+  tasks:
+    - name: create a test ansible user
+      user:
+	name: ansible_test
+	state: present:wq
+		 	
